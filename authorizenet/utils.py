@@ -14,13 +14,13 @@ CARDS = {
 	'DISCOVER':     [6011, 65] + _range(622126, 622925) + _range(644, 649),
 	'JCB':          _range(3528, 3589),
 	'LASER':        [6304, 6706, 6771, 6709],
-	'MAESTRO':      [5018, 5020, 5038, 5612, 5893, 6304, 6759, 6761, 6762, 6763, 0604, 6390],
+	'MAESTRO':      [5018, 5020, 5038, 5612, 5893, 6304, 6759, 6761, 6762, 6763, 6390],
 	'DANKORT':      [5019],
 	'MASTERCARD':   _range(50, 55),
 	'VISA':         [4],
 	'VISAELECTRON': [4026, 417500, 4405, 4508, 4844, 4913, 4917]
 }
-
+#0604,
 def get_contact(contact_name = None):
 	user = session.user
 	contact = None
